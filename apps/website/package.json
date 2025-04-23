@@ -1,0 +1,15 @@
+{
+    "name": "website",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "maodun": "maodun"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@maodun-cli/cli": "workspace:*"
+    }
+}
