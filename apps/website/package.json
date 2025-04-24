@@ -4,7 +4,14 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "maodun": "maodun"
+        "maodun": "maodun",
+        "test": "maodun test halo",
+        "info": "maodun info",
+        "create": "maodun create app -r true",
+        "serve": "maodun serve",
+        "build": "maodun build",
+        "preview": "maodun preview",
+        "help": "maodun help"
     },
     "keywords": [],
     "author": "",

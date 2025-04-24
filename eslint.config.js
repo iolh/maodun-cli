@@ -15,7 +15,7 @@ export default defineConfig([
             eslintConfigPrettier,
             // pluginReact.configs.flat.recommended,
         ],
-        ignores: ["apps/**/*/{tmp,.dumi}/**/*", "*.js", "**/*/build/**/*", "**/*/es/**/*", "**/*/dist/**/*"],
+        ignores: ["apps/**/*/{tmp,.dumi}/**/*", "*.js", "**/*/templates/**/*", "**/*/build/**/*", "**/*/es/**/*", "**/*/dist/**/*"],
         plugins: { js, "simple-import-sort": simpleImportSort },
         languageOptions: { globals: globals.browser },
         rules: {

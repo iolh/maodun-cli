@@ -4,6 +4,7 @@ import { create } from "./base/create";
 import { info } from "./base/info";
 import { preview } from "./base/preview";
 import { serve } from "./base/serve";
+import { test } from "./base/test";
 
 // 注册命令
 registerCommand(info);
@@ -11,3 +12,4 @@ registerCommand(create);
 registerCommand(serve);
 registerCommand(build);
 registerCommand(preview);
+registerCommand(test);

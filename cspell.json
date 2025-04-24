@@ -10,7 +10,7 @@
     ],
     "dictionaries": ["project-words"],
     "ignorePaths": ["/project-words.txt"],
-    "files": ["(packages|apps)/**/*.@(html|js|cjs|mjs|ts|tsx|css|scss|md)"],
+    "files": ["(packages|apps)/**/*.@(html|js|cjs|mjs|ts|tsx|css|scss|md)", "!**/templates/**/*"],
     "useGitignore": true,
     "enableGlobDot": true,
     "cache": {
